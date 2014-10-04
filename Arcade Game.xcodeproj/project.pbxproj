@@ -9,11 +9,33 @@
 /* Begin PBXBuildFile section */
 		146813B219E05F3B001C1341 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 146813B119E05F3B001C1341 /* main.m */; };
 		146813B519E05F3B001C1341 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 146813B419E05F3B001C1341 /* AppDelegate.m */; };
-		146813B819E05F3B001C1341 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146813B719E05F3B001C1341 /* ViewController.m */; };
 		146813BB19E05F3B001C1341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146813B919E05F3B001C1341 /* Main.storyboard */; };
 		146813BD19E05F3B001C1341 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146813BC19E05F3B001C1341 /* Images.xcassets */; };
 		146813C019E05F3B001C1341 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146813BE19E05F3B001C1341 /* LaunchScreen.xib */; };
 		146813CC19E05F3B001C1341 /* Arcade_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 146813CB19E05F3B001C1341 /* Arcade_GameTests.m */; };
+		146813D619E06209001C1341 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 146813D519E06209001C1341 /* Podfile */; };
+		146813D919E06BD6001C1341 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146813D819E06BD6001C1341 /* ScanViewController.m */; };
+		146813DE19E06F52001C1341 /* ArcadeMachineScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 146813DD19E06F52001C1341 /* ArcadeMachineScanner.m */; };
+		146813E119E06FBB001C1341 /* ArcadeMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 146813E019E06FBB001C1341 /* ArcadeMachine.m */; };
+		146813EB19E0823B001C1341 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146813EA19E0823B001C1341 /* AudioToolbox.framework */; };
+		146813ED19E08241001C1341 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146813EC19E08241001C1341 /* CFNetwork.framework */; };
+		146813EF19E08248001C1341 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146813EE19E08248001C1341 /* CoreGraphics.framework */; };
+		146813F119E08250001C1341 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146813F019E08250001C1341 /* CoreLocation.framework */; };
+		146813F519E0825D001C1341 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146813F419E0825D001C1341 /* MobileCoreServices.framework */; };
+		146813F719E08264001C1341 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146813F619E08264001C1341 /* QuartzCore.framework */; };
+		146813F919E0826A001C1341 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146813F819E0826A001C1341 /* Security.framework */; };
+		146813FB19E08272001C1341 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146813FA19E08272001C1341 /* StoreKit.framework */; };
+		146813FD19E0827B001C1341 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146813FC19E0827B001C1341 /* SystemConfiguration.framework */; };
+		1468140A19E08678001C1341 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1468140919E08678001C1341 /* Accounts.framework */; };
+		1468140C19E08686001C1341 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1468140B19E08686001C1341 /* AdSupport.framework */; };
+		1468140E19E086A0001C1341 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1468140D19E086A0001C1341 /* libsqlite3.dylib */; };
+		1468141019E086AD001C1341 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1468140F19E086AD001C1341 /* libz.1.2.5.dylib */; };
+		1468141219E086BF001C1341 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1468141119E086BF001C1341 /* Social.framework */; };
+		1468141419E086D5001C1341 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1468141319E086D4001C1341 /* Foundation.framework */; };
+		1468141619E086E0001C1341 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1468141519E086E0001C1341 /* UIKit.framework */; };
+		1468141A19E0877B001C1341 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1468141919E0877B001C1341 /* Parse.framework */; };
+		1468141C19E08781001C1341 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1468141B19E08781001C1341 /* Bolts.framework */; };
+		4D52852D77C9FF6876D7A6B4 /* libPods-Arcade Game.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CB556B2089AA8381A16D62 /* libPods-Arcade Game.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +54,41 @@
 		146813B119E05F3B001C1341 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		146813B319E05F3B001C1341 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		146813B419E05F3B001C1341 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		146813B619E05F3B001C1341 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		146813B719E05F3B001C1341 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		146813BA19E05F3B001C1341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		146813BC19E05F3B001C1341 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		146813BF19E05F3B001C1341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		146813C519E05F3B001C1341 /* Arcade GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arcade GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		146813CA19E05F3B001C1341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		146813CB19E05F3B001C1341 /* Arcade_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Arcade_GameTests.m; sourceTree = "<group>"; };
+		146813D519E06209001C1341 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		146813D719E06BD6001C1341 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		146813D819E06BD6001C1341 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		146813DC19E06F52001C1341 /* ArcadeMachineScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcadeMachineScanner.h; sourceTree = "<group>"; };
+		146813DD19E06F52001C1341 /* ArcadeMachineScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcadeMachineScanner.m; sourceTree = "<group>"; };
+		146813DF19E06FBB001C1341 /* ArcadeMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcadeMachine.h; sourceTree = "<group>"; };
+		146813E019E06FBB001C1341 /* ArcadeMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcadeMachine.m; sourceTree = "<group>"; };
+		146813EA19E0823B001C1341 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		146813EC19E08241001C1341 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		146813EE19E08248001C1341 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		146813F019E08250001C1341 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		146813F219E08257001C1341 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		146813F419E0825D001C1341 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		146813F619E08264001C1341 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		146813F819E0826A001C1341 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		146813FA19E08272001C1341 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		146813FC19E0827B001C1341 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1468140919E08678001C1341 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		1468140B19E08686001C1341 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		1468140D19E086A0001C1341 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		1468140F19E086AD001C1341 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		1468141119E086BF001C1341 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		1468141319E086D4001C1341 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1468141519E086E0001C1341 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1468141919E0877B001C1341 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		1468141B19E08781001C1341 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		4989F5265435D353842367CD /* Pods-Arcade Game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arcade Game.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arcade Game/Pods-Arcade Game.debug.xcconfig"; sourceTree = "<group>"; };
+		58CB556B2089AA8381A16D62 /* libPods-Arcade Game.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Arcade Game.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C56F06E4913E71157BE96C /* Pods-Arcade Game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arcade Game.release.xcconfig"; path = "Pods/Target Support Files/Pods-Arcade Game/Pods-Arcade Game.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +96,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1468141619E086E0001C1341 /* UIKit.framework in Frameworks */,
+				1468141C19E08781001C1341 /* Bolts.framework in Frameworks */,
+				1468141419E086D5001C1341 /* Foundation.framework in Frameworks */,
+				1468141219E086BF001C1341 /* Social.framework in Frameworks */,
+				1468141019E086AD001C1341 /* libz.1.2.5.dylib in Frameworks */,
+				1468140E19E086A0001C1341 /* libsqlite3.dylib in Frameworks */,
+				1468140C19E08686001C1341 /* AdSupport.framework in Frameworks */,
+				1468140A19E08678001C1341 /* Accounts.framework in Frameworks */,
+				146813FD19E0827B001C1341 /* SystemConfiguration.framework in Frameworks */,
+				146813FB19E08272001C1341 /* StoreKit.framework in Frameworks */,
+				146813F919E0826A001C1341 /* Security.framework in Frameworks */,
+				1468141A19E0877B001C1341 /* Parse.framework in Frameworks */,
+				146813F719E08264001C1341 /* QuartzCore.framework in Frameworks */,
+				146813F519E0825D001C1341 /* MobileCoreServices.framework in Frameworks */,
+				146813F119E08250001C1341 /* CoreLocation.framework in Frameworks */,
+				146813EF19E08248001C1341 /* CoreGraphics.framework in Frameworks */,
+				146813ED19E08241001C1341 /* CFNetwork.framework in Frameworks */,
+				146813EB19E0823B001C1341 /* AudioToolbox.framework in Frameworks */,
+				4D52852D77C9FF6876D7A6B4 /* libPods-Arcade Game.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +131,12 @@
 		146813A319E05F3B001C1341 = {
 			isa = PBXGroup;
 			children = (
+				146813D519E06209001C1341 /* Podfile */,
 				146813AE19E05F3B001C1341 /* Arcade Game */,
 				146813C819E05F3B001C1341 /* Arcade GameTests */,
 				146813AD19E05F3B001C1341 /* Products */,
+				22BF5845FEC981F43AF2925F /* Pods */,
+				E71CCF29CE69733DC92F1526 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +152,14 @@
 		146813AE19E05F3B001C1341 /* Arcade Game */ = {
 			isa = PBXGroup;
 			children = (
+				146813DF19E06FBB001C1341 /* ArcadeMachine.h */,
+				146813E019E06FBB001C1341 /* ArcadeMachine.m */,
+				146813DC19E06F52001C1341 /* ArcadeMachineScanner.h */,
+				146813DD19E06F52001C1341 /* ArcadeMachineScanner.m */,
+				146813D719E06BD6001C1341 /* ScanViewController.h */,
+				146813D819E06BD6001C1341 /* ScanViewController.m */,
 				146813B319E05F3B001C1341 /* AppDelegate.h */,
 				146813B419E05F3B001C1341 /* AppDelegate.m */,
-				146813B619E05F3B001C1341 /* ViewController.h */,
-				146813B719E05F3B001C1341 /* ViewController.m */,
 				146813B919E05F3B001C1341 /* Main.storyboard */,
 				146813BC19E05F3B001C1341 /* Images.xcassets */,
 				146813BE19E05F3B001C1341 /* LaunchScreen.xib */,
@@ -119,6 +194,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		22BF5845FEC981F43AF2925F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4989F5265435D353842367CD /* Pods-Arcade Game.debug.xcconfig */,
+				80C56F06E4913E71157BE96C /* Pods-Arcade Game.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E71CCF29CE69733DC92F1526 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1468141B19E08781001C1341 /* Bolts.framework */,
+				1468141919E0877B001C1341 /* Parse.framework */,
+				1468141519E086E0001C1341 /* UIKit.framework */,
+				1468141319E086D4001C1341 /* Foundation.framework */,
+				1468141119E086BF001C1341 /* Social.framework */,
+				1468140F19E086AD001C1341 /* libz.1.2.5.dylib */,
+				1468140D19E086A0001C1341 /* libsqlite3.dylib */,
+				1468140B19E08686001C1341 /* AdSupport.framework */,
+				1468140919E08678001C1341 /* Accounts.framework */,
+				146813FC19E0827B001C1341 /* SystemConfiguration.framework */,
+				146813FA19E08272001C1341 /* StoreKit.framework */,
+				146813F819E0826A001C1341 /* Security.framework */,
+				146813F619E08264001C1341 /* QuartzCore.framework */,
+				146813F419E0825D001C1341 /* MobileCoreServices.framework */,
+				146813F219E08257001C1341 /* libz.dylib */,
+				146813F019E08250001C1341 /* CoreLocation.framework */,
+				146813EE19E08248001C1341 /* CoreGraphics.framework */,
+				146813EC19E08241001C1341 /* CFNetwork.framework */,
+				146813EA19E0823B001C1341 /* AudioToolbox.framework */,
+				58CB556B2089AA8381A16D62 /* libPods-Arcade Game.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 146813CF19E05F3B001C1341 /* Build configuration list for PBXNativeTarget "Arcade Game" */;
 			buildPhases = (
+				C137D162BF432126B7989B4F /* Check Pods Manifest.lock */,
 				146813A819E05F3B001C1341 /* Sources */,
 				146813A919E05F3B001C1341 /* Frameworks */,
 				146813AA19E05F3B001C1341 /* Resources */,
+				6305A35F3EB957C5FACAEA99 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,6 +314,7 @@
 			files = (
 				146813BB19E05F3B001C1341 /* Main.storyboard in Resources */,
 				146813C019E05F3B001C1341 /* LaunchScreen.xib in Resources */,
+				146813D619E06209001C1341 /* Podfile in Resources */,
 				146813BD19E05F3B001C1341 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,14 +328,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6305A35F3EB957C5FACAEA99 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arcade Game/Pods-Arcade Game-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C137D162BF432126B7989B4F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		146813A819E05F3B001C1341 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				146813B819E05F3B001C1341 /* ViewController.m in Sources */,
+				146813DE19E06F52001C1341 /* ArcadeMachineScanner.m in Sources */,
 				146813B519E05F3B001C1341 /* AppDelegate.m in Sources */,
 				146813B219E05F3B001C1341 /* main.m in Sources */,
+				146813D919E06BD6001C1341 /* ScanViewController.m in Sources */,
+				146813E119E06FBB001C1341 /* ArcadeMachine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,8 +490,14 @@
 		};
 		146813D019E05F3B001C1341 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4989F5265435D353842367CD /* Pods-Arcade Game.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/parse-library-1.4.1",
+				);
 				INFOPLIST_FILE = "Arcade Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,8 +507,14 @@
 		};
 		146813D119E05F3B001C1341 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C56F06E4913E71157BE96C /* Pods-Arcade Game.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/parse-library-1.4.1",
+				);
 				INFOPLIST_FILE = "Arcade Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +575,7 @@
 				146813D119E05F3B001C1341 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		146813D219E05F3B001C1341 /* Build configuration list for PBXNativeTarget "Arcade GameTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +584,7 @@
 				146813D419E05F3B001C1341 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
