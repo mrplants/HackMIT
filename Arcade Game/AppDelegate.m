@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <Venmo-iOS-SDK/Venmo.h>
+#import <Parse/Parse.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +19,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // Initialize the Venmo API
+    [Venmo startWithAppId:@"2006" secret:@"a2sug6afqjuKp3hs234bQhvt5AnX9QsP" name:@"Hack MIT Arcade Game"];
+    
+    // Initialize the Parse API
+    [Parse setApplicationId:@"m2KTzqM8oWOQMrqwKtRaYph7yibSIZaix1reDBWz"
+                  clientKey:@"R2J4RlSaP2Lu11kaubUvWj98P0yj0OceGDSXyzHb"];
+    
+    // Set the default payment method
+    if (![Venmo isVenmoAppInstalled]) {
+        [[Venmo sharedInstance] setDefaultTransactionMethod:VENTransactionMethodAPI];
+    }
+    else {
+        [[Venmo sharedInstance] setDefaultTransactionMethod:VENTransactionMethodAppSwitch];
+    }
+    
     return YES;
 }
 
@@ -40,6 +58,18 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+    
+    if ([[Venmo sharedInstance] handleOpenURL:url]) {
+        return YES;
+    }
+    // You can add your app-specific url handling code here if needed
+    return NO;
 }
 
 @end
